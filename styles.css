@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Roboto;
 }
 
 .header,
@@ -8,6 +9,7 @@ body {
     background-color: #1F2937;
 }
 
+.footer,
 .header {
     display: flex;
     justify-content: space-around;
@@ -95,4 +97,67 @@ body {
     align-items: center;
     text-align: center;
     color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    align-content: flex-end;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA-dialog {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 50px;
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.CTA-header {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.CTA-body {
+    color: white;
+}
+
+.sign-up-inverse {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.footer {
+    color: #E5E7EB;
 }
