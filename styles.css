@@ -31,11 +31,11 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .hero-left {
-    flex-basis: 800px;
+    flex-basis: 42%;
 }
 
 .hero-main-text {
