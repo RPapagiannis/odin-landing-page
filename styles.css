@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 20px;
 }
 
 .header-logo {
@@ -21,9 +20,48 @@ body {
 }
 
 .nav-links {
-    font-size: 18px;
-    color: #E5E7EB;
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+}
+
+.hero-left {
+    flex-basis: 800px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.nav-links,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    background-color: lightgray;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 100px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+    border-radius: 12px;
 }
