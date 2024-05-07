@@ -89,6 +89,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
 }
 
 .card {
@@ -106,7 +107,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    padding: 100px;
+    padding: 200px;
     gap: 10px;
 }
 
@@ -126,13 +127,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .CTA-dialog {
     background-color: #3882F6;
     border-radius: 10px;
     margin: 50px;
-    flex-basis: 50%;
+    flex-basis: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
